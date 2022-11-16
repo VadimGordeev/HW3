@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src:local('Raleway-Regular'), local('Raleway-Regular'),
+    url('../fonts/Raleway/Raleway-Regular.woff2') format('woff2'),
+    url('../fonts/Raleway/Raleway-Regular.woff') format('woff'),
+    url('../fonts/Raleway/Raleway-Regular.ttf') format('ttf'),
+    url('../fonts/Raleway/Raleway-Regular.eot') format('eot');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src:local('Open Sans'), local('Open Sans'),
+    url('../fonts/Open Sans/Open\ Sans.woff2') format('woff2'),
+    url('../fonts/Open Sans/Open\ Sans.woff') format('woff'),
+    url('../fonts/Open Sans/Open\ Sans.ttf') format('ttf'),
+    url('../fonts/Open Sans/Open\ Sans.eot') format('eot');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.awesome {
+    width: 1170px;
+    height: 665px;
+    margin: 0px auto;
+}
+.awesome__header {
+    width: 1170px;
+    height: 150px;
+    margin: 0px auto;
+}
+.awesome__header__h2 {
+    width: 1170px;
+    height: 150px;
+    text-transform: uppercase;
+    font-family: 'Raleway-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    box-sizing: border-box;
+    padding-top: 60px;
+    text-align: center;
+    color: #000000;
+}
+.awesome__header__separator {
+    width: 170px;
+    height: 0px;
+    margin: 0 auto;
+    border: 1px solid #EC7979;
+}
+.awesome__text {
+    width: 1170px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin-top: 40px;
+    text-align: center;
+}
+.awesome__about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 70px auto;
+}
+.awesome__about__group {
+    width: 370px;
+    height: 380px;
+    margin:0 15px;   
+}
+.awesome__about__group__icon {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 1px solid #EC7979;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 39px auto;
+}
+.awesome__about__group__h4 {
+    width: 369px;
+    height: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+.awesome__about__group__h5 {
+    width: 370px;
+    height: 105px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
